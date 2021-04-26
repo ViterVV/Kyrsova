@@ -1,0 +1,3679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mtc_Тетраедр.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 542</value>
+  </data>
+  <data name="button17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button17.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="button17.Text" xml:space="preserve">
+    <value>Очистити історію</value>
+  </data>
+  <data name="&gt;&gt;button17.Name" xml:space="preserve">
+    <value>button17</value>
+  </data>
+  <data name="&gt;&gt;button17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button17.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;button17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBox11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 460</value>
+  </data>
+  <data name="textBox11.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox11.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 162</value>
+  </data>
+  <data name="textBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;textBox11.Name" xml:space="preserve">
+    <value>textBox11</value>
+  </data>
+  <data name="&gt;&gt;textBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox11.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;textBox11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 460</value>
+  </data>
+  <data name="button16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button16.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="button16.Text" xml:space="preserve">
+    <value>Запам'ятати значення</value>
+  </data>
+  <data name="&gt;&gt;button16.Name" xml:space="preserve">
+    <value>button16</value>
+  </data>
+  <data name="&gt;&gt;button16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button16.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;button16.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>954, 15</value>
+  </data>
+  <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button12.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="button12.Text" xml:space="preserve">
+    <value>Очистити все</value>
+  </data>
+  <data name="&gt;&gt;button12.Name" xml:space="preserve">
+    <value>button12</value>
+  </data>
+  <data name="&gt;&gt;button12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 125</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 325</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="linkLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 460</value>
+  </data>
+  <data name="linkLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="linkLabel1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>284, 0</value>
+  </data>
+  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 46</value>
+  </data>
+  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="linkLabel1.Text" xml:space="preserve">
+    <value>Розширений опис</value>
+  </data>
+  <data name="linkLabel1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt, style=Underline</value>
+  </data>
+  <data name="button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 68</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 49</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Вивести короткий опис
+</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 125</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 325</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13.5pt, style=Bold</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 25</value>
+  </data>
+  <data name="textBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 15</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 49</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>ОКРУГЛИТИ ДО            ЗНАКIВ ПIСЛЯ КОМИ</value>
+  </data>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 49</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>УВЕДІТЬ СТОРОНУ</value>
+  </data>
+  <data name="label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 373</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label4.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 300</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label3.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 221</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 143</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>120, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 68</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="button1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>135, 0</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Розрахувати</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 74</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 35</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="mtc_Тетраедр.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="mtc_Тетраедр.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mtc_Тетраедр.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="mtc_Тетраедр.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1123, 703</value>
+  </data>
+  <data name="mtc_Тетраедр.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mtc_Тетраедр.Text" xml:space="preserve">
+    <value>Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Тетраедр.Name" xml:space="preserve">
+    <value>mtc_Тетраедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Тетраедр.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtc_Тетраедр.Parent" xml:space="preserve">
+    <value>metrotabcontorl</value>
+  </data>
+  <data name="&gt;&gt;mtc_Тетраедр.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="mtc_Куб.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;button19.Name" xml:space="preserve">
+    <value>button19</value>
+  </data>
+  <data name="&gt;&gt;button19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button19.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button18.Name" xml:space="preserve">
+    <value>button18</value>
+  </data>
+  <data name="&gt;&gt;button18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button18.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox12.Name" xml:space="preserve">
+    <value>textBox12</value>
+  </data>
+  <data name="&gt;&gt;textBox12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox12.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;textBox12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button11.Name" xml:space="preserve">
+    <value>button11</value>
+  </data>
+  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Name" xml:space="preserve">
+    <value>linkLabel2</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
+    <value>textBox6</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
+    <value>textBox5</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="mtc_Куб.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="mtc_Куб.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mtc_Куб.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="mtc_Куб.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1123, 703</value>
+  </data>
+  <data name="mtc_Куб.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mtc_Куб.Text" xml:space="preserve">
+    <value>   Куб</value>
+  </data>
+  <data name="&gt;&gt;mtc_Куб.Name" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;mtc_Куб.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtc_Куб.Parent" xml:space="preserve">
+    <value>metrotabcontorl</value>
+  </data>
+  <data name="&gt;&gt;mtc_Куб.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mtc_Октаедр.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;button21.Name" xml:space="preserve">
+    <value>button21</value>
+  </data>
+  <data name="&gt;&gt;button21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button21.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button20.Name" xml:space="preserve">
+    <value>button20</value>
+  </data>
+  <data name="&gt;&gt;button20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button20.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox13.Name" xml:space="preserve">
+    <value>textBox13</value>
+  </data>
+  <data name="&gt;&gt;textBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox13.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button13.Name" xml:space="preserve">
+    <value>button13</value>
+  </data>
+  <data name="&gt;&gt;button13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button13.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Name" xml:space="preserve">
+    <value>linkLabel3</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="mtc_Октаедр.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mtc_Октаедр.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="mtc_Октаедр.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1123, 703</value>
+  </data>
+  <data name="mtc_Октаедр.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mtc_Октаедр.Text" xml:space="preserve">
+    <value>Октаедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Октаедр.Name" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Октаедр.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtc_Октаедр.Parent" xml:space="preserve">
+    <value>metrotabcontorl</value>
+  </data>
+  <data name="&gt;&gt;mtc_Октаедр.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mtc_Ікосаедр.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;button23.Name" xml:space="preserve">
+    <value>button23</value>
+  </data>
+  <data name="&gt;&gt;button23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button23.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button23.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button22.Name" xml:space="preserve">
+    <value>button22</value>
+  </data>
+  <data name="&gt;&gt;button22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button22.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox14.Name" xml:space="preserve">
+    <value>textBox14</value>
+  </data>
+  <data name="&gt;&gt;textBox14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox14.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;button14.Name" xml:space="preserve">
+    <value>button14</value>
+  </data>
+  <data name="&gt;&gt;button14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button14.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Name" xml:space="preserve">
+    <value>linkLabel4</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
+    <value>textBox8</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
+    <value>textBox7</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="mtc_Ікосаедр.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt, style=Bold</value>
+  </data>
+  <data name="mtc_Ікосаедр.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mtc_Ікосаедр.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="mtc_Ікосаедр.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1123, 703</value>
+  </data>
+  <data name="mtc_Ікосаедр.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="mtc_Ікосаедр.Text" xml:space="preserve">
+    <value>Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Ікосаедр.Name" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Ікосаедр.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtc_Ікосаедр.Parent" xml:space="preserve">
+    <value>metrotabcontorl</value>
+  </data>
+  <data name="&gt;&gt;mtc_Ікосаедр.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mtc_Додекаедр.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="button25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 542</value>
+  </data>
+  <data name="button25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button25.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button25.Text" xml:space="preserve">
+    <value>Очистити історію</value>
+  </data>
+  <data name="&gt;&gt;button25.Name" xml:space="preserve">
+    <value>button25</value>
+  </data>
+  <data name="&gt;&gt;button25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button25.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;button25.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 460</value>
+  </data>
+  <data name="button24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button24.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button24.Text" xml:space="preserve">
+    <value>Запам'ятати значення</value>
+  </data>
+  <data name="&gt;&gt;button24.Name" xml:space="preserve">
+    <value>button24</value>
+  </data>
+  <data name="&gt;&gt;button24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button24.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;button24.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="textBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 460</value>
+  </data>
+  <data name="textBox15.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox15.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 162</value>
+  </data>
+  <data name="textBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;textBox15.Name" xml:space="preserve">
+    <value>textBox15</value>
+  </data>
+  <data name="&gt;&gt;textBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox15.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>954, 15</value>
+  </data>
+  <data name="button15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button15.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button15.Text" xml:space="preserve">
+    <value>Очистити все</value>
+  </data>
+  <data name="&gt;&gt;button15.Name" xml:space="preserve">
+    <value>button15</value>
+  </data>
+  <data name="&gt;&gt;button15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button15.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt, style=Underline</value>
+  </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 68</value>
+  </data>
+  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 49</value>
+  </data>
+  <data name="button10.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button10.Text" xml:space="preserve">
+    <value>Вивести короткий опис</value>
+  </data>
+  <data name="&gt;&gt;button10.Name" xml:space="preserve">
+    <value>button10</value>
+  </data>
+  <data name="&gt;&gt;button10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 125</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 325</value>
+  </data>
+  <data name="label35.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="linkLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="linkLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 460</value>
+  </data>
+  <data name="linkLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 46</value>
+  </data>
+  <data name="linkLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="linkLabel5.Text" xml:space="preserve">
+    <value>Розширений опис</value>
+  </data>
+  <data name="linkLabel5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;linkLabel5.Name" xml:space="preserve">
+    <value>linkLabel5</value>
+  </data>
+  <data name="&gt;&gt;linkLabel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel5.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;linkLabel5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 373</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label31.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 300</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label30.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 221</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label29.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 143</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label28.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBox10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="textBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 74</value>
+  </data>
+  <data name="textBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 35</value>
+  </data>
+  <data name="textBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBox10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox10.Name" xml:space="preserve">
+    <value>textBox10</value>
+  </data>
+  <data name="&gt;&gt;textBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox10.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox10.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="textBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13.5pt, style=Bold</value>
+  </data>
+  <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 25</value>
+  </data>
+  <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="textBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="textBox9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox9.Name" xml:space="preserve">
+    <value>textBox9</value>
+  </data>
+  <data name="&gt;&gt;textBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox9.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox9.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="button6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 68</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>Розрахувати</value>
+  </data>
+  <data name="&gt;&gt;button6.Name" xml:space="preserve">
+    <value>button6</value>
+  </data>
+  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 15</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 49</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>ОКРУГЛИТИ ДО            ЗНАКIВ ПIСЛЯ КОМИ</value>
+  </data>
+  <data name="label15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 125</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 325</value>
+  </data>
+  <data name="pictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 49</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>УВЕДІТЬ СТОРОНУ</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="mtc_Додекаедр.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="mtc_Додекаедр.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="mtc_Додекаедр.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1123, 703</value>
+  </data>
+  <data name="mtc_Додекаедр.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mtc_Додекаедр.Text" xml:space="preserve">
+    <value>Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Додекаедр.Name" xml:space="preserve">
+    <value>mtc_Додекаедр</value>
+  </data>
+  <data name="&gt;&gt;mtc_Додекаедр.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabPage, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;mtc_Додекаедр.Parent" xml:space="preserve">
+    <value>metrotabcontorl</value>
+  </data>
+  <data name="&gt;&gt;mtc_Додекаедр.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="metrotabcontorl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="metrotabcontorl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="metrotabcontorl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="metrotabcontorl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1131, 745</value>
+  </data>
+  <data name="metrotabcontorl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;metrotabcontorl.Name" xml:space="preserve">
+    <value>metrotabcontorl</value>
+  </data>
+  <data name="&gt;&gt;metrotabcontorl.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroTabControl, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="&gt;&gt;metrotabcontorl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;metrotabcontorl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>954, 15</value>
+  </data>
+  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button11.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="button11.Text" xml:space="preserve">
+    <value>Очистити все</value>
+  </data>
+  <data name="&gt;&gt;button11.Name" xml:space="preserve">
+    <value>button11</value>
+  </data>
+  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt, style=Underline</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 68</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 49</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>Вивести короткий опис</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 125</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 325</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="linkLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="linkLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 460</value>
+  </data>
+  <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 46</value>
+  </data>
+  <data name="linkLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="linkLabel2.Text" xml:space="preserve">
+    <value>Розширений опис</value>
+  </data>
+  <data name="linkLabel2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Name" xml:space="preserve">
+    <value>linkLabel2</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;linkLabel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 373</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label23.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 300</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label22.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 221</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 143</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13.5pt, style=Bold</value>
+  </data>
+  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 25</value>
+  </data>
+  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="textBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="textBox6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Name" xml:space="preserve">
+    <value>textBox6</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox6.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;textBox6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="textBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 74</value>
+  </data>
+  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 35</value>
+  </data>
+  <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="textBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
+    <value>textBox5</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 68</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Розрахувати</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 15</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 49</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>ОКРУГЛИТИ ДО            ЗНАКIВ ПIСЛЯ КОМИ</value>
+  </data>
+  <data name="label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 125</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 325</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 49</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>УВЕДІТЬ СТОРОНУ</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="button13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>954, 15</value>
+  </data>
+  <data name="button13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button13.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button13.Text" xml:space="preserve">
+    <value>Очистити все</value>
+  </data>
+  <data name="&gt;&gt;button13.Name" xml:space="preserve">
+    <value>button13</value>
+  </data>
+  <data name="&gt;&gt;button13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button13.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt, style=Underline</value>
+  </data>
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 68</value>
+  </data>
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 49</value>
+  </data>
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>Вивести короткий опис</value>
+  </data>
+  <data name="&gt;&gt;button8.Name" xml:space="preserve">
+    <value>button8</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 125</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 325</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="linkLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="linkLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 460</value>
+  </data>
+  <data name="linkLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 46</value>
+  </data>
+  <data name="linkLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="linkLabel3.Text" xml:space="preserve">
+    <value>Розширений опис</value>
+  </data>
+  <data name="linkLabel3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Name" xml:space="preserve">
+    <value>linkLabel3</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13.5pt, style=Bold</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 25</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="textBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 74</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 35</value>
+  </data>
+  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="textBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 373</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label20.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 300</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 221</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label18.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 143</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 68</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>Розрахувати</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 15</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 49</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>ОКРУГЛИТИ ДО            ЗНАКIВ ПIСЛЯ КОМИ</value>
+  </data>
+  <data name="label13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 125</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 325</value>
+  </data>
+  <data name="pictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 49</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>УВЕДІТЬ СТОРОНУ</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="button14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>954, 15</value>
+  </data>
+  <data name="button14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button14.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button14.Text" xml:space="preserve">
+    <value>Очистити все</value>
+  </data>
+  <data name="&gt;&gt;button14.Name" xml:space="preserve">
+    <value>button14</value>
+  </data>
+  <data name="&gt;&gt;button14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button14.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt, style=Underline</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>824, 68</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 49</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>Вивести короткий опис</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 125</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 325</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="linkLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="linkLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 460</value>
+  </data>
+  <data name="linkLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 46</value>
+  </data>
+  <data name="linkLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="linkLabel4.Text" xml:space="preserve">
+    <value>Розширений опис</value>
+  </data>
+  <data name="linkLabel4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Name" xml:space="preserve">
+    <value>linkLabel4</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;linkLabel4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 373</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label27.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 300</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label26.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 221</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 143</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 49</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label24.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="textBox8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 13.5pt, style=Bold</value>
+  </data>
+  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 25</value>
+  </data>
+  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 28</value>
+  </data>
+  <data name="textBox8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBox8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Name" xml:space="preserve">
+    <value>textBox8</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox8.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox8.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="textBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 18pt, style=Bold</value>
+  </data>
+  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 74</value>
+  </data>
+  <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 35</value>
+  </data>
+  <data name="textBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="textBox7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
+    <value>textBox7</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="button5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 68</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 49</value>
+  </data>
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>Розрахувати</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 15</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 49</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>ОКРУГЛИТИ ДО            ЗНАКIВ ПIСЛЯ КОМИ</value>
+  </data>
+  <data name="label14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 125</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 325</value>
+  </data>
+  <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 16pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 49</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>УВЕДІТЬ СТОРОНУ</value>
+  </data>
+  <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="textBox12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 460</value>
+  </data>
+  <data name="textBox12.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox12.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 162</value>
+  </data>
+  <data name="textBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;textBox12.Name" xml:space="preserve">
+    <value>textBox12</value>
+  </data>
+  <data name="&gt;&gt;textBox12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox12.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;textBox12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="textBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 460</value>
+  </data>
+  <data name="textBox13.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox13.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 162</value>
+  </data>
+  <data name="textBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;textBox13.Name" xml:space="preserve">
+    <value>textBox13</value>
+  </data>
+  <data name="&gt;&gt;textBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox13.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 12pt</value>
+  </data>
+  <data name="textBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 460</value>
+  </data>
+  <data name="textBox14.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox14.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="textBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 162</value>
+  </data>
+  <data name="textBox14.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;textBox14.Name" xml:space="preserve">
+    <value>textBox14</value>
+  </data>
+  <data name="&gt;&gt;textBox14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox14.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;textBox14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 460</value>
+  </data>
+  <data name="button18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button18.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="button18.Text" xml:space="preserve">
+    <value>Запам'ятати значення</value>
+  </data>
+  <data name="&gt;&gt;button18.Name" xml:space="preserve">
+    <value>button18</value>
+  </data>
+  <data name="&gt;&gt;button18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button18.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 542</value>
+  </data>
+  <data name="button19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button19.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="button19.Text" xml:space="preserve">
+    <value>Очистити історію</value>
+  </data>
+  <data name="&gt;&gt;button19.Name" xml:space="preserve">
+    <value>button19</value>
+  </data>
+  <data name="&gt;&gt;button19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button19.Parent" xml:space="preserve">
+    <value>mtc_Куб</value>
+  </data>
+  <data name="&gt;&gt;button19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 460</value>
+  </data>
+  <data name="button20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button20.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button20.Text" xml:space="preserve">
+    <value>Запам'ятати значення</value>
+  </data>
+  <data name="&gt;&gt;button20.Name" xml:space="preserve">
+    <value>button20</value>
+  </data>
+  <data name="&gt;&gt;button20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button20.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 542</value>
+  </data>
+  <data name="button21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button21.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button21.Text" xml:space="preserve">
+    <value>Очистити історію</value>
+  </data>
+  <data name="&gt;&gt;button21.Name" xml:space="preserve">
+    <value>button21</value>
+  </data>
+  <data name="&gt;&gt;button21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button21.Parent" xml:space="preserve">
+    <value>mtc_Октаедр</value>
+  </data>
+  <data name="&gt;&gt;button21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 460</value>
+  </data>
+  <data name="button22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button22.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="button22.Text" xml:space="preserve">
+    <value>Запам'ятати значення</value>
+  </data>
+  <data name="&gt;&gt;button22.Name" xml:space="preserve">
+    <value>button22</value>
+  </data>
+  <data name="&gt;&gt;button22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button22.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Demi, 14.25pt</value>
+  </data>
+  <data name="button23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 542</value>
+  </data>
+  <data name="button23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 46</value>
+  </data>
+  <data name="button23.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="button23.Text" xml:space="preserve">
+    <value>Очистити історію</value>
+  </data>
+  <data name="&gt;&gt;button23.Name" xml:space="preserve">
+    <value>button23</value>
+  </data>
+  <data name="&gt;&gt;button23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button23.Parent" xml:space="preserve">
+    <value>mtc_Ікосаедр</value>
+  </data>
+  <data name="&gt;&gt;button23.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 21</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1131, 686</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Franklin Gothic Book, 12pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Калькулятор для об'ємних багатогранників</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
